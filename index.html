@@ -1,0 +1,129 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Perbrale — Mind • Body • Mic</title>
+  <meta name="description" content="Perbrale: podcasts, streams, ideas, and the glow‑up journey. Mind • Body • Mic." />
+  <style>
+    :root{
+      --bg:#0f0f12; --card:#17171c; --text:#f4f4f8; --muted:#b9bbbf; --accent:#9d77ff; --accent2:#4ef0c2; --hot:#ff6b6b;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:radial-gradient(1200px 800px at 80% -10%, rgba(157,119,255,.15), transparent),
+               radial-gradient(900px 700px at -10% 110%, rgba(78,240,194,.12), transparent), var(--bg); color:var(--text); font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif}
+    a{color:var(--accent2);text-decoration:none}
+    a:hover{opacity:.9;text-decoration:underline}
+    .wrap{max-width:1024px;margin:0 auto;padding:28px}
+    header{display:flex;align-items:center;gap:16px;margin:10px 0 22px}
+    .logo{width:54px;height:54px;border-radius:14px;background:linear-gradient(135deg,var(--accent),var(--hot));display:grid;place-items:center;box-shadow:0 8px 30px rgba(0,0,0,.35)}
+    .logo span{font-weight:800;font-size:22px}
+    .title h1{margin:0;font-size:28px;letter-spacing:.3px}
+    .title p{margin:2px 0 0;color:var(--muted)}
+    .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,.02),transparent 35%),var(--card);border-radius:18px;padding:18px;border:1px solid rgba(255,255,255,.06);box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    .badge{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border-radius:999px;font-size:12px;background:rgba(157,119,255,.15);border:1px solid rgba(157,119,255,.35);margin-bottom:6px}
+    h2{margin:8px 0 10px;font-size:22px}
+    .cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:11px 14px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.03);color:var(--text);font-weight:600}
+    .btn.primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#101014;text-shadow:0 1px 0 rgba(255,255,255,.35);border:none}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}
+    .coming{display:inline-block;padding:4px 10px;border:1px dashed rgba(255,255,255,.35);border-radius:999px;color:var(--muted);font-size:12px}
+    .socials{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+    .socials a{padding:8px 12px;border:1px solid rgba(255,255,255,.12);border-radius:999px;color:var(--text)}
+    .divider{height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.12),transparent);margin:28px 0}
+    footer{color:var(--muted);font-size:13px;margin:30px 0 10px}
+    .note{color:var(--muted);font-size:14px}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo" aria-hidden="true"><span>PB</span></div>
+      <div class="title" role="banner">
+        <h1>Perbrale</h1>
+        <p>Mind • Body • Mic — podcasts, streams, and the glow‑up journey.</p>
+      </div>
+    </header><section class="hero" aria-label="Intro">
+  <div class="card">
+    <div class="badge">🚧 Site v0.1 • Building in public</div>
+    <h2>Hey, I’m Alex — aka <strong>Perbrale</strong>.</h2>
+    <p>Empath brain, gym grind, and brutally honest conversations in four languages (EN/FR/ES/PT). I’m launching a podcast and streaming soon. This page is the hub that ties everything together.</p>
+    <div class="cta">
+      <a class="btn primary" href="#subscribe">Get launch updates</a>
+      <a class="btn" href="#links">All links</a>
+    </div>
+    <p class="note" style="margin-top:10px">No spam. Just drop announcements + best episodes.</p>
+  </div>
+  <div class="card" role="img" aria-label="Abstract gradient cover art placeholder">
+    <svg viewBox="0 0 400 260" width="100%" height="100%" style="border-radius:12px">
+      <defs>
+        <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#9d77ff"/>
+          <stop offset="100%" stop-color="#4ef0c2"/>
+        </linearGradient>
+      </defs>
+      <rect x="0" y="0" width="400" height="260" fill="#13131a"/>
+      <circle cx="90" cy="80" r="70" fill="url(#g1)" opacity="0.75"/>
+      <circle cx="320" cy="160" r="110" fill="#ff6b6b" opacity="0.25"/>
+      <text x="24" y="232" fill="#eaeaf2" font-size="18" font-weight="700">Perbrale • Coming Soon</text>
+    </svg>
+  </div>
+</section>
+
+<div class="divider" role="separator"></div>
+
+<section id="links" aria-label="Links">
+  <h2>Find me</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>🎧 Podcast</h3>
+      <p>Long‑form truth, empathy, and no‑fluff life strategy.</p>
+      <span class="coming">Recording • Launching soon</span>
+    </div>
+    <div class="card">
+      <h3>🎥 Streaming</h3>
+      <p>Live readings, deep dives, and hot‑seat conversations.</p>
+      <span class="coming">Pilot streams in progress</span>
+    </div>
+    <div class="card">
+      <h3>📕 Book</h3>
+      <p>Memoir‑meets‑field guide: hermit to human — the rebuild.</p>
+      <span class="coming">Writing • 2026</span>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <h3>Socials</h3>
+    <p class="note">Handles reserved — posting ramping up.</p>
+    <div class="socials">
+      <a href="https://x.com/Perbrale" target="_blank" rel="noopener">X / Twitter</a>
+      <a href="#" aria-disabled="true">TikTok (soon)</a>
+      <a href="#" aria-disabled="true">YouTube (soon)</a>
+      <a href="#" aria-disabled="true">Instagram (reserved)</a>
+    </div>
+  </div>
+</section>
+
+<div class="divider" role="separator"></div>
+
+<section id="subscribe" class="card" aria-label="Subscribe">
+  <h2>Get the first drop</h2>
+  <p>Leave an email and I’ll send the first episode + best threads. For now this opens your email app — a simple list until the fancy stuff is live.</p>
+  <div class="cta">
+    <a class="btn primary" href="mailto:perbrale@gmail.com?subject=Subscribe%20me%20to%20Perbrale&body=Hey%20Alex%2C%20add%20me%20to%20the%20launch%20list.%20">Email to subscribe</a>
+    <a class="btn" href="mailto:perbrale@gmail.com">perbrale@gmail.com</a>
+  </div>
+</section>
+
+<footer>
+  <p>© <span id="y"></span> Perbrale. All rights reserved. • Lyon ◦ PT/FR</p>
+  <p class="note">Business inquiries: <a href="mailto:perbrale@gmail.com">perbrale@gmail.com</a></p>
+</footer>
+
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
